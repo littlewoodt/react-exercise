@@ -1,7 +1,7 @@
 /**
  * This file is called using the getContacts function and returns a Javascript Promise
  */
-import { v4 } from 'uuid';
+import { v4 } from 'uuid'
 import { when } from 'q'
 
 export default () => when([
@@ -33,6 +33,7 @@ export default () => when([
         company: 'Acme P/L',
         mobileNumber: '1234567890',
         contactNumber: '0987654321',
+        address: 'happy housewarming'
       },
       tags: ['tennis', 'rugby']
     },
